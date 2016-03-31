@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head><title>BASICCALCULATOR</title>
+<style>
+#header {
+    background-color:#25383C;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav{
+    line-height:30px;
+    background-color:#eeeeee;
+    height:600px;
+    width:150px;
+    float:left;
+    padding:5px;	      
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+<h1>BASIC CALCULATOR</h1> 
+<pre>                                                       <a href="about.html" target="_top"><button>HOME</button></a>
+
+</pre> 
+</div>
+
+<div id="nav"><font color="black">
+<pre><h2>
+C                      
+   A                  
+      L           
+         C      
+            U
+            L
+         A
+      T
+   O
+R
+</h2>
+   </pre> </font>        
+</div>
+
+<div id="section">
+<center><h2><font color="black">BASIC CALCULATOR:</font></h3></center>
+<h5><font color="black">By using this basic calculator you perform the following operations.</font></h5>
+<pre><h5><font color="black">
+  1.ADDITION.
+  2.SUBTRACTION.
+  3.MULTIPLICATION.
+  4.DIVISION.</font>
+</h5>
+</pre>
+<form Name="calc">
+<table border=2>
+<tr>
+<td colspan=4><input type=text Name="display"></td>
+</tr>
+<tr>
+<td><input type="button" value="1" onClick="calc.display.value+='1'"></td>
+<td><input type="button" value="2" onClick="calc.display.value+='2'"></td>
+<td><input type="button" value="3" onClick="calc.display.value+='3'"></td>
+<td><input type="button" value="+" onClick="calc.display.value+='+'"></td>
+</tr>
+<tr>
+<td><input type="button" value="4" onClick="calc.display.value+='4'"></td>
+<td><input type="button" value="5" onClick="calc.display.value+='5'"></td>
+<td><input type="button" value="6" onClick="calc.display.value+='6'"></td>
+<td><input type="button" value="-" onClick="calc.display.value+='-'"></td>
+</tr>
+<tr>
+<td><input type="button" value="7" onClick="calc.display.value+='7'"></td>
+<td><input type="button" value="8" onClick="calc.display.value+='8'"></td>
+<td><input type="button" value="9" onClick="calc.display.value+='9'"></td>
+<td><input type="button" value="*" onClick="calc.display.value+='*'"></td>
+</tr>
+<tr>
+<td><input type="button" value="0" onClick="calc.display.value+='0'"></td>
+<td><input type="button" value="C" onClick="calc.display.value=''"></td>
+<td><input type="button" value="=" onClick="calc.display.value=eval(calc.display.value)"></td>
+<td><input type="button" value="/" onClick="calc.display.value+='/'"></td>
+</tr>
+</table>
+</form>
+</div>
+
+<div id="footer">
+This is developed by DSR
+</div>
+
+</body>
+</html>
